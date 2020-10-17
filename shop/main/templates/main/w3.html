@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+    A wineglass of nothing
+{% endblock %}
+
+{% block content %}
+<div class="prm1 prm3">
+    <div class="prmpic1 prwpic3"></div>
+    <div class="prm1textmain">A wineglass of nothing</div>
+    <div class="pr1text">
+        Nothing is a good thing. You can eat it, feed friends or pet, play with it.<br>
+        Nothing fits easily in your trouser pocket or in a woman's purse.<br>
+        Buy a wineglass of nothing and get the same amount for free
+    </div>
+    {% if user.is_authenticated %}
+    <a href="{% url 'pay' %}" class="btnmainM btnpr1" >Buy now for 1000₽</a><br>
+    {% else %}
+    <a href="{% url 'login' %}" class="btnmainM btnpr1" >Buy now for 1000₽</a><br> 
+    {% endif %}
+</div>
+
+<div class="bottomall bottomproduct">
+    <div class="job">
+        Plz give me a job
+    </div>
+    <div class="job mail">
+        E-mail: vladislav_erekeshov@mail.ru
+</div>   
+{% endblock %}

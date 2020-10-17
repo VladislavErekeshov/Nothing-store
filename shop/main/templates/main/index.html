@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+    Nothing store
+{% endblock %}
+
+{% block content %}
+<div>
+  <p id="maintext">So, what is a nothing?</p>
+  <p  id="maintext1">Nothing is a nothing</p><p id="maintext2">Buy it!</p>
+        
+  <a id="shopbutton" href="{% url 'all' %}" class="btn btn-outline-dark">Shop nothing</a>
+</div>
+{% endblock %}

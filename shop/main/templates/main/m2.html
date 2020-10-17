@@ -1,0 +1,31 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+    A glass of nothing
+{% endblock %}
+
+{% block content %}
+<div class="prm1 prm2">
+    <div class="prmpic1 prmpic2"></div>
+    <div class="prm1textmain prm2textmain">A glass of nothing</div>
+    <div class="pr1text">
+        Nothing is a good thing. You can eat it, feed friends or pet, play with it.<br>
+        Nothing fits easily in your trouser pocket or in a woman's purse.<br>
+        Buy a glass of nothing and get the same amount for free
+    </div>
+    {% if user.is_authenticated %}
+    <a href="{% url 'pay' %}" class="btnmainM btnpr1" >Buy now for 300₽</a><br>
+    {% else %}
+    <a href="{% url 'login' %}" class="btnmainM btnpr1" >Buy now for 300₽</a><br> 
+    {% endif %}
+</div>
+
+<div class="bottomall bottomproduct">
+    <div class="job">
+        Plz give me a job
+    </div>
+    <div class="job mail">
+        E-mail: vladislav_erekeshov@mail.ru
+    </div>
+{% endblock %}

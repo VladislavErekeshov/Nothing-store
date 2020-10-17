@@ -1,0 +1,648 @@
+body {
+    background: white url("images/background.gif");
+}
+
+#maintext {
+    font-size: 70px;
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+}
+
+#shopbutton {
+    font-size: 20px;
+    position:absolute;
+    top:57%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#maintext1 {
+    font-size: 40px;
+    position:absolute;
+    top:43%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#maintext2 {
+    font-size: 40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+ 
+}
+
+.btnmainM{
+    color: black;
+    position:absolute;
+    font-size: 25px;
+    transform:translate(-50%,-50%);
+    top: 93%;
+    left:50%;
+    text-decoration: underline red;
+    text-underline-position: under;
+}
+
+.btnmainM:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.m1 {
+    
+    background-color: rgb(189, 227, 216);
+    width: 49.4%;
+    height: 633px;
+    position: absolute;
+    top: 80px;
+    left: 0%;
+}
+
+.m1pic {
+    background: url("images/m1.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+}
+
+.m1text {
+    color: black;
+    position: absolute;
+    font-size: 50px;
+    top: 50px;
+    left: 27%;
+}
+
+.m2 {
+    background-color: rgb(251, 227, 215);
+    width: 25%;
+    height: 314px;
+    position: absolute;
+    top: 80px;
+    right: 0%;
+}
+
+.m2pic {
+    background: url("images/m2.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.m2text1 {
+    color: black;
+    position: absolute;
+    font-size: 35px;
+    left: 20%;
+    top: 7%;
+}
+
+.m2text2 {
+    left: 23%;
+    top: 20%;
+}
+
+.btnm2 {
+    left: 36%;
+    top: 85%;
+}
+
+.m3 {
+    background-color: rgb(204, 227, 245);
+    right: 25.31%;
+}
+
+.m3pic {
+    background: url("images/m3.png") no-repeat;
+}
+
+.m3text1 {
+    left: 40%;
+}
+
+.m3text2 {
+    left: 47%;
+}
+
+.btnm3 {
+    left: 59%;
+}
+.m4 {
+    background-color: rgb(252, 220, 225);
+    right: 25.31%;
+    top: 399px;
+}
+
+.m4pic {
+    background: url("images/m4.png") no-repeat;
+}
+
+.m4text1 {
+    left: 55%;
+}
+
+.m4text2 {
+    left :56%
+}
+
+.btnm4 {
+    top: 75%;
+    left: 68%;
+}
+
+.m5 {
+    background-color: rgb(212, 212, 238);
+    top: 399px;
+}
+
+.m5pic {
+    background: url("images/m5.png") no-repeat;
+}
+
+.m5text1 {
+    left: 13%;
+}
+
+.m5text2 {
+    top: 20%;
+    left: 22%;
+}
+
+.btnm5 {
+    top: 80%;
+}
+
+.m6 {
+    
+    background-color: rgb(204, 227, 245);
+    width: 50.3%;
+    height: 633px;
+    position: absolute;
+    top: 718px;
+    right: 0%;
+}
+
+.m6pic {
+    background: url("images/m6.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+
+.m6text {
+    color: black;
+    position: absolute;
+    font-size: 50px;
+    top: 50px;
+    left: 27%;
+}
+
+.btnmainM6{
+    color: black;
+    position:absolute;
+    font-size: 25px;
+    transform:translate(-50%,-50%);
+    top: 93%;
+    left:50%;
+    text-decoration: underline red;
+    text-underline-position: under;
+}
+
+.btnmainM6:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.m7 {
+    background-color: rgb(252, 220, 225);
+    width: 24.55%;
+    height: 314px;
+    position: absolute;
+    top: 718px;
+    left: 0%;
+}
+
+.m7pic {
+    background: url("images/m7.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.m7text {
+    color: black;
+    position: absolute;
+    font-size: 35px;
+    left: 20%;
+    top: 7%;
+}
+
+.btnm7 {
+    left: 50%;
+    top: 85%;
+}
+.m8 {
+    background-color: rgb(251, 227, 215);
+    left: 24.85%;
+}
+
+.m8pic {
+    background: url("images/m8.png") no-repeat;
+}
+
+.m9 {
+    background-color: rgb(212, 212, 238);
+    left: 24.85%;
+    top: 1037px;
+}
+
+.m9pic {
+    background: url("images/m9.png") no-repeat;
+}
+.m10 {
+    background-color: rgb(189, 227, 216);
+    top: 1037px;
+}
+
+.m10pic {
+    background: url("images/m10.png") no-repeat;
+}
+
+.m10text {
+    left: 16%;
+}
+
+.btnm10 {
+    top: 90%;
+}
+
+.w {
+    position: absolute;
+    top: 1277px;
+    width: 100%;
+    left: 0%;
+}
+
+.w1pic {
+    background: url("images/w1.png") no-repeat;
+}
+
+.w1text {
+    left: 32%;
+}
+
+.w2pic {
+    background: url("images/w2.png") no-repeat;
+}
+
+.w2text1 {
+    left: 5%;
+}
+
+.w2text2 {
+    left: 15%;
+}
+
+.btnw2 {
+    left: 28%;
+
+}
+
+.w3pic {
+    background: url("images/w3.png") no-repeat;
+}
+
+.w3text2 {
+    left: 52%;
+}
+
+.btnw3 {
+    left: 65%;
+}
+
+.w4pic {
+    background: url("images/w4.png") no-repeat;
+}
+
+.w4text1 {
+    left: 55%;
+    top: 5%;
+}
+
+.w4text2 {
+    left: 61%;
+    top: 18%;
+}
+
+.btnw4 {
+    left: 75%;
+}
+
+.w5pic {
+    background: url("images/w5.png") no-repeat;
+}
+
+.w5text1 {
+    left: 15%;
+    top: 5%;
+}
+
+.w5text2 {
+    left: 20%;
+    top: 18%;
+}
+
+.btnw5 {
+    left: 33%;
+}
+
+.w6text {
+    left: 35%;
+}
+
+.w7pic {
+    background: url("images/w7.png") no-repeat;
+}
+
+.w7text {
+    left: 15%;
+}
+
+.btnm7 {
+    left: 50%;
+}
+
+.w8pic {
+    background: url("images/w8.png") no-repeat;
+}
+
+.w9pic {
+    background: url("images/w9.png") no-repeat;
+}
+
+.w9text {
+    top: 3%;
+    left: 15%;
+}
+
+.btnw9 {
+    top: 90%;
+    left: 50%;
+}
+
+.w10pic {
+    background: url("images/w10.png") no-repeat;
+}
+
+.w10text {
+    left: 12%;
+}
+
+.n {
+    top: 2554px;
+}
+
+.buybuybtn {
+    position:absolute;
+    font-size: 50px;
+    transform:translate(-50%,-50%);
+    top: 48%;
+    left:50%;
+}
+
+.buybuybtn1 {
+    font-size: 25px;
+}
+
+.bottomall {
+    top: 3911px;
+    position:absolute;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    border-top: 1px solid rgb(221, 221, 221);
+    box-shadow: 0px -3px 10px -9px #000000;
+}
+
+.job {
+    position:absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 20px;
+}
+
+.mail {
+    left: 65%;
+}
+
+.bottommain {
+    top: 1357px;
+}
+
+.bottomproduct {
+    top: 885px;
+}
+
+.prm1 {
+    position:absolute;
+    top: 180px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(189, 227, 216);
+    box-shadow: 0px -3px 7px -3px #888888, 0px 3px 7px -3px #888888;
+    
+}
+
+.prmpic1 {
+    position:absolute;
+    top: 0%;
+    width: 740px;
+    height: 600px;
+    background: url("images/prm1.png") no-repeat;
+}
+
+.prm1textmain {
+    position:absolute;
+    font-size: 50px;
+    top: 30px;
+    left: 57%;
+}
+
+.btnpr1 {
+    top: 90%;
+    font-size: 30px;
+    left: 70%;
+}
+
+.pr1text {
+    position:absolute;
+    top: 240px;
+    left: 50%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.prm2 {
+    background-color: rgb(251, 227, 215); 
+}
+
+.prmpic2 {
+    background: url("images/prm2.png") no-repeat;
+}
+
+.prm2textmain {
+    left: 59%;
+}
+
+.prm3textmain {
+    left: 58%;
+}
+
+.prm3 {
+    background-color: rgb(204, 227, 245); 
+}
+
+.prmpic3 {
+    background: url("images/prm3.png") no-repeat;
+}
+
+.prm4textmain {
+    left: 60%;
+}
+
+.prm4 {
+    background-color: rgb(252, 220, 225);
+}
+
+.prmpic4 {
+    background: url("images/prm4.png") no-repeat;
+}
+
+.prm5 {
+    background-color: rgb(212, 212, 238);
+}
+
+.prmpic5 {
+    background: url("images/prm5.png") no-repeat;
+}
+
+.prm6 {
+    background-color: rgb(204, 227, 245);
+}
+
+.prmpic6 {
+    background: url("images/prm6.png") no-repeat;
+}
+
+.prm7 {
+    background-color: rgb(252, 220, 225);
+}
+
+.prmpic7 {
+    background: url("images/prm7.png") no-repeat;
+}
+
+.prm8 {
+    background-color: rgb(251, 227, 215);
+}
+
+.prmpic8 {
+    background: url("images/prm8.png") no-repeat;
+}
+
+.prm9 {
+    background-color: rgb(212, 212, 238);
+}
+
+.prmpic9 {
+    background: url("images/prm9.png") no-repeat;
+}
+
+.prm10 {
+    background: rgb(189, 227, 216) url("images/prm10.png") no-repeat;
+}
+
+.prm10textmain {
+    left: 38%;
+}
+
+.pr10text {
+    top: 180px;
+    left: 30%;
+}
+
+.btnpr10 {
+    left: 50%;
+    top: 450px;
+}
+
+.prwpic1 {
+    background: url("images/prw1.png") no-repeat;
+}
+
+.prwpic2 {
+    background: url("images/prw2.png") no-repeat;
+}
+
+.prwpic3 {
+    background: url("images/prw3.png") no-repeat;
+}
+
+.prwpic4 {
+    background: url("images/prw4.png") no-repeat;
+}
+
+.prwpic5 {
+    background: url("images/prw5.png") no-repeat;
+}
+
+.prw6textmain {
+    left: 43%;
+}
+
+.prwpic7 {
+    background: url("images/prw7.png") no-repeat;
+}
+
+.prwpic8 {
+    background: url("images/prw8.png") no-repeat;
+}
+
+.prwpic9 {
+    background: url("images/prw9.png") no-repeat;
+}
+
+.prwpic10 {
+    background: url("images/prw10.png") no-repeat;
+}
+
+.prbuy {
+    background: none;
+    box-shadow: none;
+}
+
+.reg {
+    position: absolute;
+    top: 240px;
+    width: 800px;
+    left: 30%;
+}
+
+.login {
+    top: 340px;
+}

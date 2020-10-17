@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+    Registration
+{% endblock %}
+
+{% block content %}
+<div class="reg">
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary btn-block">Register now</button>
+</form>
+</div>
+
+<div class="bottomall bottomproduct">
+    <div class="job">
+        Plz give me a job
+    </div>
+    <div class="job mail">
+        E-mail: vladislav_erekeshov@mail.ru
+</div>
+
+{% endblock %}

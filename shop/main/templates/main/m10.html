@@ -1,0 +1,29 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+    A pipeline of nothing
+{% endblock %}
+
+{% block content %}
+<div class="prm1 prm10">
+    <div class="prm1textmain prm10textmain">A pipeline of nothing</div>
+    <div class="pr1text pr10text">
+        Nothing is a good thing. You can eat it, feed friends or pet, play with it.<br>
+        Nothing fits easily in your trouser pocket or in a woman's purse.<br>
+        Buy a pipeline of nothing and get the same amount for free
+    </div>
+    {% if user.is_authenticated %}
+    <a href="{% url 'pay' %}" class="btnmainM btnpr1" >Buy now for 1kk₽ per meter</a><br>
+    {% else %}
+    <a href="{% url 'login' %}" class="btnmainM btnpr1" >Buy now for 1kk₽ per meter</a><br> 
+    {% endif %}
+</div>
+
+<div class="bottomall bottomproduct">
+    <div class="job">
+        Plz give me a job
+    </div>
+    <div class="job mail">
+        E-mail: vladislav_erekeshov@mail.ru
+</div>    
+{% endblock %}

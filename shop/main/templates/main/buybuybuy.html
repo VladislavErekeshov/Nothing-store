@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+    Just buy it!
+{% endblock %}
+
+{% block content %}
+<div class="prm1 prbuy">
+    <div class="prm1textmain prm10textmain prw6textmain">Just buy it!</div>
+    <div class="pr1text pr10text">
+        Just buy it! Just buy it! Just buy it! Just buy it! Just buy it! Just buy it!<br>
+        Just buy it! Just buy it! Just buy it! Just buy it! Just buy it! Just buy it!<br>
+        Just buy it! Just buy it! Just buy it! Just buy it! Just buy it! Just buy it!
+    </div>
+    {% if user.is_authenticated %}
+    <a href="{% url 'pay' %}" class="btnmainM btnpr1" >Buy now for 999999999₽!</a><br>
+    {% else %}
+    <a href="{% url 'login' %}" class="btnmainM btnpr1" >Buy now for 999999999!₽</a><br> 
+    {% endif %}
+</div>
+
+<div class="bottomall bottomproduct">
+    <div class="job">
+        Plz give me a job
+    </div>
+    <div class="job mail">
+        E-mail: vladislav_erekeshov@mail.ru
+    </div>
+{% endblock %}
